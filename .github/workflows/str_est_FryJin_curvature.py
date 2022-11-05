@@ -34,7 +34,7 @@ num=200000
 pbar=0.055
 reps=250
 
-os.chdir("C:/Users/giorg/Desktop/Research/replication package/replication package")
+os.chdir("https://github.com/sapogior/papercode/edit/main/.github/workflows")
 
 exp= pd.read_stata("final200.dta")
 Y=exp[['subj','trial','risky']]
