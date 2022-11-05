@@ -36,7 +36,7 @@ import matplotlib.patches as mpatches
 
 os.chdir("https://github.com/sapogior/papercode/edit/main/.github/workflows.py")
 
-expa= pd.read_stata("pilot18_11_5reshape.dta")
+expa= pd.read_stata("T1_T2_T3_T4reshape.dta")
 Ya=expa[['subj','trial','risky']]
 #X=exp[['subj','trial','risky','x','c']]
 Xa=expa[['subj','trial','x','P']]
