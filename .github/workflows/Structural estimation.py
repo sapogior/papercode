@@ -34,7 +34,7 @@ from numpy.linalg import inv
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
-os.chdir("C:/Users/giorg/Desktop/Research/choice under risk experiment")
+os.chdir("https://github.com/sapogior/papercode/edit/main/.github/workflows.py")
 
 expa= pd.read_stata("pilot18_11_5reshape.dta")
 Ya=expa[['subj','trial','risky']]
