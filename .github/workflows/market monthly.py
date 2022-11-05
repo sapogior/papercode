@@ -56,7 +56,7 @@ year1=1990
 year2=2022
 
 
-os.chdir("C:/Users/giorg/Desktop/Research/choice under risk experiment")
+os.chdir("https://github.com/sapogior/papercode/edit/main/.github/workflows/market%20monthly.py")
 X= pd.read_csv("market.csv")
 
 B=np.array(X[['vwretd','DATE']])
